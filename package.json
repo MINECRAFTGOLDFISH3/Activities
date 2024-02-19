@@ -3,7 +3,10 @@
   "description": "activities",
   "version": "1.0.0",
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "yarn",
+    "predeploy": "",
+    "prebuild": "jest",
+    "start": "yarn start",
     "test": "jest"
   },
   "repository": {
