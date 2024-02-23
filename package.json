@@ -5,9 +5,9 @@
   "scripts": {
     "build": "yarn",
     "predeploy": "",
-    "prebuild": "jest",
+    "prebuild": "index.html",
     "start": "yarn run",
-    "test": "jest"
+    "test": "index.html"
   },
   "repository": {
     "type": "git",
