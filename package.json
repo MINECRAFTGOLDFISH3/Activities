@@ -4,8 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "yarn",
-    "predeploy": "",
-    "start": "yarn run",
+    "start": "yarn run"
   },
   "repository": {
     "type": "git",
