@@ -6,6 +6,7 @@
     background-color: #333333;
     top: 75px;
     left: 0px;
+    opacity: 0%;
 }
 #right {
     text-align: right;
@@ -16,6 +17,7 @@
     top: 75px;
     padding-right: 0px;
     right: 0;
+    opacity: 0%;
 }
 #center {
     text-align: center;
