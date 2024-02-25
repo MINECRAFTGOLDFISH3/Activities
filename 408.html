@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="manifest" href="site.webmanifest" />
+        <title>408 | Activities</title>
+        <style>
+            #form {
+                text-align: center;
+                background-color: #f0ebf8;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="index.html">Home</a> | <a href="all.html">All Games</a> <a href="unity.html">Unity Games</a> <a href="io.html">Io Games</a> <a href="html5.html">HTML5 Games</a> <a href="ruffle.html">Flash Games</a> | <a href="misc.html">Miscellaneous</a>
+        </header>
+        <div id="left"></div>
+        <div id="center">
+            <h1>408 Error</h1><hr />
+            <p>Error: Timeout.</p>
+            <button onclick="showForm('form')">Report this bug here.</button><br /><br />
+            <div id="form"><iframe id="form" src="https://docs.google.com/forms/d/e/1FAIpQLSe01L5KERecXdjwDEBjmPPWvnOMtLOIfz09FFtCahxsu_n0DA/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+        </div>
+        <div id="right"></div>
+        <script>
+            document.getElementById('form').style.display = 'none';
+            function showForm(id) {
+                document.getElementById(id).style.display = 'block';
+            }
+        </script>
+    </body>
+</html>
